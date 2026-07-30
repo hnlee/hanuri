@@ -127,7 +127,7 @@ button {
   font-size: 1.5em;
   border: 0;
   border-radius: 10px;
-  padding: 0.75em;
+  padding: 0.5em;
   text-align: center;
   margin: 2rem;
 }
@@ -139,7 +139,7 @@ section.hero-section button {
   font-size: 1.5em;
   border: 0;
   border-radius: 10px;
-  padding: 0.75em;
+  padding: 0.5em;
   margin-bottom: 1rem;
 }
 
