@@ -1,0 +1,14 @@
+name: hanuri
+description: Hanuri Korean School website
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  gcp:project: project-a69841ec-9116-445c-a09
+  pulumi:tags:
+    value:
+      pulumi:template: gcp-python
+  pulumi:autonaming:
+    value:
+      pattern: ${name}-${stack}
