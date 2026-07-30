@@ -1,8 +1,9 @@
 ---
 import "../styles/global.css";
+import Footer from "../components/footer.astro";
+import Hamburger from "../components/hamburger.astro";
 import Hero from "../components/hero.astro";
 import Menu from "../components/menu.astro";
-import Footer from "../components/footer.astro";
 import { Content as AboutUs } from "../components/en/aboutUs.md";
 import { Content as Donate } from "../components/en/donate.md";
 import { Content as ProgramInformation } from "../components/en/programInformation.md";
@@ -24,13 +25,14 @@ import Logo from "../assets/hanuri_horizontal_logo.svg";
   </head>
   <body>
     <header>
-      <section class="header-section">
+      <section id="header-section">
         <Logo preserveAspectRatio="xMinYMid" />
-        <Menu />
+        <nav id="header-menu"><Menu /></nav>
       </section>
     </header>
     <main>
       <Hero />
+      <Hamburger />
       <article><WhyHanuri /></article>
       <article><ProgramInformation /></article>
       <article>

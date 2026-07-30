@@ -29,8 +29,6 @@ const menuItems: MenuItem[] = [
   }
 ];
 ---
-<nav>
-  <menu>
-    {menuItems.map((item) => <li><a class="nav-link" href={item.id}>{item.text}</a></li>)}
-  </menu>
-</nav>
+<menu>
+  {menuItems.map((item) => <li><a class="nav-link" href={item.id}>{item.text}</a></li>)}
+</menu>

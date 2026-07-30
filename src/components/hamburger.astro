@@ -1,0 +1,31 @@
+---
+import { Icon } from "astro-icon/components";
+import Menu from "./menu.astro";
+---
+
+<button id="hamburger">
+  <Icon id="open-menu" name="line-md:menu" />
+  <nav id="hamburger-menu" class="hidden">
+    <Icon id="close-menu" name="line-md:close" />
+    <Menu />
+  </nav>
+</button>
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const header = document.getElementById("header-section");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > header.offsetTop + header.offsetHeight) {
+      hamburger.style.display = "block";
+    } else {
+      hamburger.style.display = "none";
+    };
+  });
+
+  const icon = document.getElementById("open-menu");
+  const menu = document.getElementById("hamburger-menu");
+  hamburger.addEventListener("click", () => {
+    icon.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
+  });
+</script>
