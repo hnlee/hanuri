@@ -28,7 +28,7 @@ Classes meet on **Saturdays, 10 AM - 1 PM**.
 - **Fall semester**: September 12, 2026 - January 30, 2027
 - **Spring semester**: February 20 - June 12, 2027
 
-Dates are subject to change.
+See [2026-2027 School Year Calendar](./calendar-2026-2027.pdf) for more details. Dates are subject to change.
 
 ## Tuition
 

@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   margin: 0;
+  font-size: 16pt;
 }
 
 header {
@@ -148,6 +149,10 @@ section.hero-section button a {
 
 section.hero-section button a:hover {
   color: inherit;
+}
+
+footer {
+  font-size: smaller;
 }
 
 footer a {
