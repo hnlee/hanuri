@@ -12,10 +12,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.1.4"
+    "astro": "^7.1.4",
+    "astro-icon": "^1.1.5"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "1.10.10",
+    "@iconify-json/line-md": "^1.2.16",
     "@typescript-eslint/parser": "8.65.0",
     "eslint": "10.8.0",
     "eslint-plugin-astro": "3.0.1",

@@ -1,18 +1,45 @@
 ---
+import "../styles/global.css";
+import Hero from "../components/hero.astro";
+import Menu from "../components/menu.astro";
+import Footer from "../components/footer.astro";
+import { Content as AboutUs } from "../components/en/aboutUs.md";
+import { Content as Donate } from "../components/en/donate.md";
+import { Content as ProgramInformation } from "../components/en/programInformation.md";
+import { Content as Registration } from "../components/en/registration.md";
+import { Content as WhyHanuri } from "../components/en/whyHanuri.md";
+import Logo from "../assets/hanuri_horizontal_logo.svg";
 
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.icns" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" href="favicon.icns" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <title>Hanuri Korean School</title>
   </head>
   <body>
-    <h1>Hanuri Korean School</h1>
+    <header>
+      <section class="header-section">
+        <Logo preserveAspectRatio="xMinYMid" />
+        <Menu />
+      </section>
+    </header>
+    <main>
+      <Hero />
+      <article><ProgramInformation /></article>
+      <article>
+        <Registration />
+        <section class="button-link"><button type="button"><a href="#registration">Ready to Register?</a></button></section>
+      </article>
+      <article><WhyHanuri /></article>
+      <article><AboutUs /></article>
+      <article><Donate /></article>
+    </main>
+    <Footer />
   </body>
 </html>
