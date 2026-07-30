@@ -18,7 +18,7 @@ Rather than let that community disappear, these families came together with a sh
 
 ## Principal
 
-**Meeyeon Yoon**, our principal, taught middle school in Korea before moving to the U.S. in 2016. She has taught at several Korean schools, including Truelight Korean School (참빛한국학), Niles Korean School, and Bulta Korean School, before stepping into the principal role at Bulta. She believes in making Korean school a joyful place to learn. Her favorite food is kimchi stew.
+**Meeyeon Yoon**, our principal, taught middle school in Korea before moving to the U.S. in 2016. She has taught at several Korean schools, including Truelight Korean School (참빛한국학교), Niles Korean School, and Bulta Korean School, before stepping into the principal role at Bulta. She believes in making Korean school a joyful place to learn. Her favorite food is kimchi stew.
 
 ## Teachers
 
