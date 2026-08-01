@@ -1,9 +1,24 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-
-import icon from 'astro-icon';
+import { unified } from "@astrojs/markdown-remark";
+import { defineConfig } from "astro/config";
+import icon from "astro-icon";
+import rehypeExternalLinks from "rehype-external-links";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [icon()]
+  integrations: [icon()],
+  markdown: {
+    processor: unified({
+      rehypePlugins: [
+        [
+          rehypeExternalLinks,
+          {
+            target: "_blank",
+            rel: ["nofollow", "noopener", "noreferrer"],
+          },
+        ],
+      ],
+    }),
+  },
 });
+

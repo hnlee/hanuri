@@ -38,18 +38,6 @@ The 2026-2027 tuition rates **per semester** are:
 - $870 for two students (discount of $30)
 - $1260 for three students (discount off $90)
 
-Tuition payments can be made with a one-time payment in full or via monthly installments.
+Tuition payments can be made with a one-time payment in full or via monthly installments. Full instructions on how to pay either online or by check will be included in the confirmation email, which you will receive within 4-5 business days once you submit the [registration form](https://forms.gle/94the6pNzJ8rkif88).
 
 We believe that tuition should not be a barrier for interested families. Please contact [hanurikoreanschool@gmail.com](mailto:hanurikoreanschool@gmail.com) for more information about various options.
-
-## Payment Methods
-
-We accept online payments via:
-
-- **Zelle:** hanurikoreanschool@gmail.com
-- **Venmo:** UPDATE
-- **PayPal:** hanurikoreanschool@gmail.com
-
-Please include the student name(s) in the notes or comments when submitting payment.
-
-You can also send a check to Hanuri Korean School with student name(s) on the memo line. Please see our [registration form](https://forms.gle/6ZhZK3YbxWGT3viRA) for more details.
