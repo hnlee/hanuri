@@ -16,7 +16,6 @@ header {
   display: grid;
   align-items: center;
   justify-items: center;
-  margin-top: 2rem;
 }
 
 #header-section {
@@ -96,20 +95,24 @@ footer {
   padding: 1rem 0;
 }
 
-article {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  line-height: 1.5;
-  max-width: 80ch;
+main .content {
+  display: grid;
+  width: 100%;
+  justify-items: center;
 }
 
-article:nth-child(even) {
+main .content:nth-child(even) {
   background-color: inherit;
 }
 
-article:nth-child(odd) {
+main .content:nth-child(odd) {
   background-color: #eef0e7;
+}
+
+article {
+  padding: 2rem;
+  line-height: 1.5;
+  max-width: 80ch;
 }
 
 a {
@@ -141,10 +144,10 @@ h2 {
 }
 
 section.hero-section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   width: 100%;
   display: block;
   background-color: #1f3a5f;
@@ -163,9 +166,8 @@ section.hero-section h1 {
   padding-left: 1ch;
 }
 
-section.button-link {
+.button-link {
   display: grid;
-  width: 100%;
   justify-items: center;
   grid-template-areas: "button";
 }
@@ -207,6 +209,10 @@ footer {
 footer a {
   padding: 0.5ch;
   line-height: 2;
+}
+
+footer a:hover {
+  color: #ffffff;
 }
 
 section.footer-links {

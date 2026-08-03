@@ -30,7 +30,7 @@ _More information to come!_
 - Mo Ran Park
 - Hana Lee
 
-## Advisory Committee
+## Advisory Council
 
 - Jinny Choi
 - Cindy Joung
