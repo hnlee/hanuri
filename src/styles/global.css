@@ -31,6 +31,7 @@ section.header-section {
 
 header svg {
   width: 100%;
+  overflow: visible;
 }
 
 header nav menu {
