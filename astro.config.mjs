@@ -20,5 +20,12 @@ export default defineConfig({
       ],
     }),
   },
+  i18n: {
+    locales: ["en", "ko"],
+    defaultLocale: "en",
+    routing: {
+      prefixDefaultLocale: true,
+      redirectToDefaultLocale: true,
+    },
+  },
 });
-

@@ -14,18 +14,23 @@ import Menu from "./menu.astro";
   const hamburger = document.getElementById("hamburger");
   const header = document.getElementById("header-section");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > header.offsetTop + header.offsetHeight) {
-      hamburger.style.display = "block";
-    } else {
-      hamburger.style.display = "none";
-    };
-  });
+  if (!!hamburger && !!header) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > header.offsetTop + header.offsetHeight) {
+        hamburger.style.display = "block";
+      } else {
+        hamburger.style.display = "none";
+      }
+    });
 
-  const icon = document.getElementById("open-menu");
-  const menu = document.getElementById("hamburger-menu");
-  hamburger.addEventListener("click", () => {
-    icon.classList.toggle("hidden");
-    menu.classList.toggle("hidden");
-  });
+    const icon = document.getElementById("open-menu");
+    const menu = document.getElementById("hamburger-menu");
+
+    if (!!icon && !!menu) {
+      hamburger.addEventListener("click", () => {
+        icon.classList.toggle("hidden");
+        menu.classList.toggle("hidden");
+      });
+    }
+  }
 </script>

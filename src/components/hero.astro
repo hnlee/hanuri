@@ -1,5 +1,13 @@
-<section class="hero-section">
-  <h1>Many&nbsp;Journeys, One&nbsp;Community</h1>
-  <button type="button"><a href="https://forms.gle/94the6pNzJ8rkif88" target="_blank">Enroll Now</a></button>
-</section>
+---
+import { getLangFromUrl, useTranslation } from "../i18n/utils";
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslation(lang);
+---
+
+<section class="hero-section">
+  <h1 set:html={t("hero.tag-line")} />
+  <button type="button">
+    <a href="https://forms.gle/94the6pNzJ8rkif88">{t("button.enroll-now")}</a>
+  </button>
+</section>

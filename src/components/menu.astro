@@ -1,34 +1,52 @@
 ---
-import Logo from "../assets/hanuri_horizontal_logo.svg";
+import { Icon } from "astro-icon/components";
+import { getLangFromUrl, useTranslation } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslation(lang);
 
 interface MenuItem {
   id: string;
   text: string;
-};
+}
 
 const menuItems: MenuItem[] = [
   {
-    id: "#why-hanuri-korean-school",
-    text: "Why Hanuri"
+    id: t("menu.why-hanuri.id"),
+    text: t("menu.why-hanuri.text"),
   },
   {
-    id: "#program-information",
-    text: "Program Info"
+    id: t("menu.program-info.id"),
+    text: t("menu.program-info.text"),
   },
   {
-    id: "#registration",
-    text: "Registration"
+    id: t("menu.registration.id"),
+    text: t("menu.registration.text"),
   },
   {
-    id: "#about-us",
-    text: "About Us"
+    id: t("menu.about-us.id"),
+    text: t("menu.about-us.text"),
   },
   {
-    id: "#donate",
-    text: "Donate"
-  }
+    id: t("menu.donate.id"),
+    text: t("menu.donate.text"),
+  },
 ];
 ---
+
 <menu>
-  {menuItems.map((item) => <li><a class="nav-link" href={item.id}>{item.text}</a></li>)}
+  <li>
+    <a href="../en/"><Icon class="language-picker" name="openmoji:flag-united-states" /></a>
+    &nbsp;
+    <a href="../ko/"><Icon class="language-picker" name="openmoji:flag-south-korea" /></a>
+  </li>
+  {
+    menuItems.map((item) => (
+      <li>
+        <a class="nav-link" href={item.id}>
+          {item.text}
+        </a>
+      </li>
+    ))
+  }
 </menu>
