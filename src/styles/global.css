@@ -10,6 +10,7 @@ body {
   width: 100vw;
   margin: 0;
   font-size: max(1em, 16pt);
+  word-break: keep-all;
 }
 
 header {

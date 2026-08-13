@@ -14,16 +14,25 @@ bucket = storage.Bucket(
 )
 cache_control = "no-cache"
 
-build_dir = pathlib.Path(__file__).parent.parent / "dist"
-for path in build_dir.iterdir():
+def upload_file(path: pathlib.Path, prefix: str | None = None) -> None:
     if path.is_file() and path.name not in (".DS_Store"):
-        bucket_object = storage.BucketObject(
-            path.name,
+        name = path.name if prefix is None else f"{prefix}/{path.name}"
+        storage.BucketObject(
+            name,
             bucket=bucket.name,
-            name=path.name,
+            name=name,
             source=pulumi.FileAsset(path),
             cache_control=cache_control,
         )
+
+
+build_dir = pathlib.Path(__file__).parent.parent / "dist"
+for path in build_dir.iterdir():
+    upload_file(path)
+    if path.is_dir() and path.name not in ("_astro"):
+        for subpath in path.iterdir():
+            upload_file(subpath, prefix=path.name)
+
 
 bucket_iam_binding = storage.BucketIAMBinding(
     "hanuri-public-access",
