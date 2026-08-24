@@ -18,7 +18,15 @@ Rather than let that community disappear, these families came together with a sh
 
 ## Principal
 
-**Meeyeon Yoon**, our principal, taught middle school in Korea before moving to the U.S. in 2016. She has taught at several Korean schools, including Truelight Korean School (참빛한국학교), Niles Korean School, and Bulta Korean School, before stepping into the principal role at Hanuri. She believes in making Korean school a joyful place to learn. Her favorite food is kimchi stew.
+**Meeyeon Yoon**, our principal, has spent many years teaching students as a middle school teacher in Korea, gaining extensive experience in the field of education.
+
+Even after immigrating to the United States in 2016, she continued to pursue her passion for education by teaching Korean at Truelight Korean School in New Jersey from 2017 to 2024. Later, after moving to Chicago, she taught students at Niles Korean School and Bulta Korean School, gaining diverse experiences in Korean school education across the United States.
+
+In particular, she won the Grand Prize at the 2023 National Association for Korean Schools (NAKS) Korean Language Teaching Competition and an Honorable Mention at the 2022 Online Teaching Competition, in recognition of her passion and expertise in Korean language education and teaching methods.
+
+Building on this rich educational experience, she is currently serving as the principal of Hanuri Korean School, working to build an educational community where students, teachers, and parents grow together.
+
+Principal Yoon believes that a Korean school should be a place where children not only learn the Korean language and culture, but also understand their roots, develop pride in their identity, and grow up joyfully. She hopes to lead Hanuri Korean School to become a place where children experience the joy of learning and form warm memories of celebrating Korean culture.
 
 ## Teachers
 
