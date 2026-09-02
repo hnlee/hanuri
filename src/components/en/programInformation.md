@@ -13,13 +13,12 @@ Hanuri Korean School’s curriculum includes:
 
 ## Location
 
+![HANA Center logo](../../assets/hana_center_logo.png)
 [HANA Center](https://hanacenter.org) ([Google Maps](https://maps.app.goo.gl/PKJBihG2c4KfwRka9))<br />
 4300 N California Avenue<br />
 Chicago, IL 60618
 
-Thank you to HANA Center for generously sharing their space with us.
-
-Please direct all questions to [hanurikoreanschool@gmail.com](mailto:hanurikoreanschool@gmail.com), not HANA Center.
+Hanuri Korean School meets on Saturdays at HANA Center but is its own independent organization. Thank you to HANA Center for generously sharing their space with us! Please direct all questions to [hanurikoreanschool@gmail.com](mailto:hanurikoreanschool@gmail.com), not HANA Center.
 
 ## Calendar
 
@@ -32,11 +31,13 @@ See [2026-2027 School Year Calendar](../calendar-2026-2027.pdf) for more details
 
 ## Tuition
 
-The 2026-2027 tuition rates **per semester** are:
+The 2026-2027 tuition rates are:
 
-- $450 for one student
-- $870 for two students (discount of $30)
-- $1260 for three students (discount off $90)
+| Number of students | Fall semester           | Spring semester         |
+| ------------------ | ----------------------- | ----------------------- |
+| One student        | $450                    | $360                    |
+| Two students       | $870 (discount of $30)  | $696 (discount of $24)  |
+| Three students     | $1260 (discount of $90) | $1008 (discount of $72) |
 
 Tuition payments can be made with a one-time payment in full or via monthly installments. Full instructions on how to pay either online or by check will be included in the confirmation email, which you will receive within 4-5 business days once you submit the [registration form](https://forms.gle/94the6pNzJ8rkif88).
 

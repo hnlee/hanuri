@@ -237,6 +237,35 @@ section.footer-copyright {
   padding-bottom: 1ch;
 }
 
+table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+thead {
+  font-weight: bold;
+  color: #1f3a5f;
+  border-bottom: solid #1f3a5f 0.15rem;
+  text-align: left;
+}
+
+th {
+  padding-bottom: 0.75rem;
+}
+
+th,
+td {
+  padding-top: 0.5rem;
+  padding-right: 2.5rem;
+}
+
+img {
+  float: left;
+  height: 4.5em;
+  width: auto;
+  padding-right: 1em;
+}
+
 * {
   box-sizing: border-box;
 }
