@@ -29,7 +29,7 @@ def upload_file(path: pathlib.Path, prefix: str | None = None) -> None:
 build_dir = pathlib.Path(__file__).parent.parent / "dist"
 for path in build_dir.iterdir():
     upload_file(path)
-    if path.is_dir() and path.name not in ("_astro"):
+    if path.is_dir():
         for subpath in path.iterdir():
             upload_file(subpath, prefix=path.name)
 

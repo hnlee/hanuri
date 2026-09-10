@@ -10,8 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy-staging": "astro build && cd infra && pulumi stack select staging && pulumi up && cd -",
-    "deploy-prod": "cd infra && pulumi stack select prod && pulumi up && cd -"
+    "deploy-staging": "astro build --mode staging && cd infra && pulumi stack select staging && pulumi up && cd -",
+    "deploy-prod": "astro build --mode production && cd infra && pulumi stack select prod && pulumi up && cd -"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.2",

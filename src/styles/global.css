@@ -24,7 +24,7 @@ header {
   display: grid;
   grid-template-columns: auto auto;
   width: 100%;
-  max-width: 80ch;
+  max-width: min(80ch, 100vw);
   padding-left: 2rem;
   padding-right: 2rem;
   align-items: inherit;
@@ -107,6 +107,7 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 1rem 0;
+  width: 100%;
 }
 
 main .content {
@@ -126,7 +127,7 @@ main .content:nth-child(odd) {
 article {
   padding: 2rem;
   line-height: 1.5;
-  max-width: 80ch;
+  max-width: min(80ch, 100vw);
 }
 
 a {
@@ -239,24 +240,27 @@ section.footer-copyright {
 
 table {
   border-collapse: collapse;
-  width: auto;
+  font-size: smaller;
 }
 
 thead {
   font-weight: bold;
   color: #1f3a5f;
-  border-bottom: solid #1f3a5f 0.15rem;
   text-align: left;
 }
 
 th {
   padding-bottom: 0.75rem;
+  padding-right: 2rem;
+  border-bottom: solid #1f3a5f 0.2rem;
 }
 
-th,
 td {
+  border-top: solid #1f3a5f 0.1rem;
   padding-top: 0.5rem;
-  padding-right: 2.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  vertical-align: top;
 }
 
 img {

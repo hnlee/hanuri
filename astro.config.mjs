@@ -4,8 +4,13 @@ import { defineConfig } from "astro/config";
 import icon from "astro-icon";
 import rehypeExternalLinks from "rehype-external-links";
 
+const isProd = import.meta.env.MODE === "production";
+
 // https://astro.build/config
 export default defineConfig({
+  site: isProd
+    ? "https://hanurikoreanschoool.org"
+    : "https://storage.googleapis.com/hanuri-staging",
   integrations: [icon()],
   markdown: {
     processor: unified({
@@ -26,5 +31,10 @@ export default defineConfig({
     routing: {
       prefixDefaultLocale: true,
     },
+  },
+  build: {
+    assetsPrefix: isProd
+      ? "https://hanurikoreanschoool.org"
+      : "https://storage.googleapis.com/hanuri-staging",
   },
 });
