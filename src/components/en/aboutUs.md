@@ -32,14 +32,15 @@ Principal Yoon believes that a Korean school should be a place where children no
 
 **Yun Jie Yang:**  Hello, I'm Yun Jie Yang. I will be the teacher in charge of Kkum (Dream) Class and will be working with the children. I hope to create good memories and learning experiences for our Kkum Class friends, many of whom will be just starting to learn Hangul and Korean culture for the first time.
 
+**Sooyoung Ahn:** Hello, I'm Sooyoung Ahn. Sarang (Love) Class is a warm space where children grow by learning Korean language and culture in a joyful and natural way. From learning hangul step by step to fun cultural experiences, we encourage the love of learning through activities customized to each child's level. With love and dedication, we will nurture our children's dreams together. Glad to meet you all, and thank you.
+
 **Hana Lee:** Hello, I'm Hana Lee, who will be in charge of Mirae (Future) Class this semester. As a parent of three Hanuri students, I consider it extremely important to teach our children Korean from a young age.  As a second-generation Korean American, I hope that my own experience of learning and practicing Korean will be helpful to our students.
 
 **Theo Streit-Hurh:** Hello everyone! My name is Theo (Ryeon) Streit-Hurh, and I'll be teaching the drumming class this year. I've learned and taught drumming as a student at Bulta Korean School for the past 12 years. This year, I would like to help young students at Hanuri Korean School develop their drum performance skills and grow their interest in traditional Korean music and culture.
 
 **Yujin Kim:** Hello, I'm Yujin Kim, who will be teaching the art class this year. I've taught students at various Korean schools and have been pursuing a career in the arts for a long time. Based on these experiences, I hope to spend time with the students at Hanuri Korean School as they learn Korean and traditional culture through art.
 
-**Kayla Yoon:** _Teacher intro to come_
-
+**Kayla Yoon:** Hello, I'm Kayla (Sohyeon) Yoon, who will be teaching the Korean dance class this year. I have taught students at Korean school for four years and also taught Korean dance to preschool and elementary school students. With this experience, I hope to provide students with a fun time learning Korean dance at Hanuri Korean School.
 ## Board of Directors
 
 - Esther Hurh
