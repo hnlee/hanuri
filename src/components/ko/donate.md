@@ -10,4 +10,32 @@
 - 모든 아이와 가족이 소속감을 느낄 수 있는 따뜻한 학교 공동체를 만들어 갑니다.
 - 앞으로도 지속적으로 성장하며 더 많은 가정과 함께 할 수 있도록 튼튼한 재정 기반을 마련합니다.
 
-한우리 한국학교 후원자가 되고 싶으시면 [hanurikoreanschool@gmail.com](mailto:hanurikoreanschool@gmail.com )으로 문의해 주세요.
+한우리의 미래를 함께 만들어요! 한우리 한국학교 후원자가 되고 싶으시면 [hanurikoreanschool@gmail.com](mailto:hanurikoreanschool@gmail.com)으로 문의해 주세요.
+
+## 창립 가정 모금 캠페인
+
+2026-2027 학년도에 $50 이상을 기부해 주신 분들께 감사드리며, 우리 비전을 실현하고 미래 세대의 한국계 미국인 아이들에게 기회를 제공하는 후원자들을 한우리의 창립 가정으로 인정합니다:
+
+### 유산 후원자
+
+- 익명 후원자
+- 최진희와 Zak Patterson
+- 허 에스더와 Tony Hurh
+- 이하나와 김명석
+- Stephanie와 Mike Schaffer
+
+### 비전 후원자
+
+- Landau 가족
+- 송수진
+
+### 동행 후원자
+
+### 미래 후원자
+
+### 희망 후원자
+
+- 안서영
+- Benjamin Williams
+
+(2026년 11월 기준)
